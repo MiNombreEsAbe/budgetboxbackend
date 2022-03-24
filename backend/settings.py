@@ -62,7 +62,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8001"
+    "http://localhost:8001",
+    'https://budgetboxfrontend.herokuapp.com'
 ]
 
 ROOT_URLCONF = 'backend.urls'
